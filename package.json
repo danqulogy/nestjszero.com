@@ -1,5 +1,11 @@
 {
   "name": "nestjszero",
+  "description": "Base solution for your end-to-end typescript web applications.",
+  "author": {
+    "email": "danquahwhite@gmail.com",
+    "name": "Bernard White Danquah",
+    "url": "www.nestjszero.com"
+  },
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -8,7 +14,10 @@
     "test": "nx test"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nrwl/angular": "^14.0.5",
+    "@nrwl/nest": "^14.0.5"
+  },
   "devDependencies": {
     "@nrwl/cli": "14.0.5",
     "@nrwl/nx-cloud": "latest",
